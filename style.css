@@ -1,0 +1,640 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is a custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: ThemeNectar
+Author URI:  https://themeforest.net/user/themenectar
+Template: salient
+Version: 1.0
+*/
+
+div#header-outer header#top nav.right-side {
+    display: inline-block !important;
+}
+
+div#header-outer header#top nav.right-side ul.buttons li#search-btn {
+    display: none;
+}
+
+div#header-outer header#top nav.right-side ul.buttons li.slide-out-widget-area-toggle {
+    display: none;
+}
+
+div#header-outer header#top nav.right-side ul.buttons {
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+}
+
+p.custom_login_heading {
+    font-family: Nunito-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333 !important;
+}
+
+div#header-outer header#top nav.right-side ul.buttons li a {
+    margin: 0;
+    display: flex;
+    font-size: 14px;
+    font-family: Nunito-Regular;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333 !important;
+}
+
+div#header-outer header#top nav.right-side ul.buttons li img {
+    margin: 0 10px;
+    transition: 0.5s !important;
+}
+
+div#header-outer header#top nav.right-side ul.buttons li:hover img {
+    transform: rotate(360deg) !important;
+}
+
+div#header-outer header#top nav.left-side ul.nectar-social li a i {
+    background-color: #939393;
+    margin-right: 10px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+div#header-outer header#top nav.left-side ul.nectar-social li a:hover i::after {
+    background-color: #939393 !important;
+    margin-right: 10px;
+    color: #fff !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled {
+    padding:10px 0 !important;
+}
+
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li:first-child a {
+    margin-left: 0px !important;
+}
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li a {
+    padding: 0 !important;
+    margin: 0 90px !important;
+    color: #fff !important;
+}
+
+div#header-outer header#top .col.span_9.col_last nav::before {
+    content: "" !important;
+    background-color: #7e9386 !important;
+    width: 200%;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 100%;
+}
+
+div#banner .vc_col-sm-12 .vc_column-inner {
+    background-color: rgb(255 255 255 / 0.60) !important;
+    padding: 5% 10%;
+}
+
+.search_fields .search {
+    position: relative !important;
+}
+
+body[data-form-submit="regular"] .search_fields .search button[type=submit] {
+    position: absolute;
+    right: 0;
+    background-color: #fff !important;
+    padding: 14px 22px !important;
+}
+
+.search_fields .search button[type=submit] i.fa.fa-search {
+    color: #898989;
+}
+
+.search_fields input {
+    background-color: #fff !important;
+    border-radius: 0px !important;
+}
+
+.search_fields input::placeholder {
+    font-size: 16px !important;
+    color: #999999;
+    font-family: Nunito-Regular;
+}
+
+div#banner {
+    padding: 23% 0 !important;
+}
+
+div#banner p {
+    color: #000000;
+}
+
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li.astm-search-menu.is-menu form.is-search-form label input {
+    width: 300px;
+}
+
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li.astm-search-menu.is-menu form.is-search-form label input::placeholder {
+    font-size: 20px;
+}
+
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li.astm-search-menu.is-menu form.is-search-form label input button.is-search-submit span.is-search-icon {
+    background: #fff !important;
+}
+
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li.astm-search-menu.is-menu .is-search-icon {
+    background: #fff !important;
+    border-left: 0;
+}
+
+div#something_sec p {
+    font-size: 68.18px;
+    font-family: brittanysignature;
+    padding: 1% 0;
+}
+
+.browse_category h1 {
+    color: #fff !important;
+    padding: 48% 0;
+    text-shadow: 0 0px 10px black;
+}
+
+.browse_category .vc_col-sm-4 {
+    padding: 5px !important;
+}
+
+div#cetagory_btn .wpb_text_column {
+    position: relative;
+}
+div#cetagory_btn .wpb_text_column::before {
+    background-image: url(http://dotcreative.website/everything/wp-content/uploads/2021/01/image.png);
+    width: 90% !important;
+    background-size: 100% 100%;
+    content: "";
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#vendor_sec a.nectar-button.small.regular.accent-color.regular-button {
+    margin: 0;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: 'Nunito-Regular';
+    font-weight: 400;
+}
+
+div#item_sec_text {
+    border-radius: 15px !important;
+}
+
+div#item_sec_text .vc_col-sm-12 .vc_column-inner {
+    padding: 3% 0 18% 0;
+    border-radius: 15px !important;
+}
+
+div#popular_items .vc_col-sm-3 .img-with-aniamtion-wrap .hover-wrap img {
+    width: 100%;
+}
+div#popular_items .vc_col-sm-3 .img-with-aniamtion-wrap .hover-wrap {
+    margin-bottom: -15px;
+}
+
+.item_detail h6 {
+    border-bottom: 2px solid #dbdbdb;
+    color: #787b86;
+    line-height: 40px !important;
+}
+
+.item_detail ul {
+    margin: 0;
+}
+
+.item_detail ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.item_detail ul li img {
+    margin: 0 10px 0px 0px !important;
+}
+
+.item_detail p {
+    position: relative !important;
+}
+
+.item_detail p i.fa.fa-heart {
+    position: absolute;
+    top: -50px;
+    right: 5px;
+    background-color: #7e9386;
+    padding: 15px;
+    color: #fff;
+}
+
+.item_detail {
+    border: 2px solid #86998d;
+    padding: 20px 10px;
+}
+
+div#popular_items {
+    margin-top: -15%;
+    padding:0 30px !important;
+}
+
+div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail {
+    background-color: #7e9386;
+}
+
+div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail h6, div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail h5, div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail ul li {
+    color: #fff !important;
+}
+
+div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail ul li:nth-child(3), div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail ul li:nth-child(3) p {
+    filter: invert(1) !important;
+}
+
+div#popular_items .vc_col-sm-3 .vc_column-inner:hover .item_detail ul li:nth-child(4) {
+    filter: brightness(5) !important;
+}
+
+div#popular_items .vc_col-sm-3 .vc_column-inner:hover i.fa.fa-heart {
+    background-color: #fff;
+    color: #7e9386;
+}
+
+div#download_app .wpb_text_column .wpb_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+div#download_app .wpb_text_column .wpb_wrapper ul {
+    margin: 0 !important;
+}
+
+div#download_app .wpb_text_column .wpb_wrapper ul li {
+    list-style: none !important;
+}
+
+div#download_app .wpb_text_column .wpb_wrapper ul:nth-child(2) {
+    display: flex;
+}
+
+div#download_app .wpb_text_column .wpb_wrapper ul li img {
+    margin: 0px 10px !important;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_sec {
+    background-size: 100% 100%;
+    padding: 10% 15%;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_client_sec ul {
+    display: flex;
+    align-items: center;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_client_sec ul li {
+    list-style: none;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_client_sec ul li img {
+    margin-right: 15px;
+    margin-bottom:0px !important;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_sec h5 {
+    margin-bottom: 30px;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_client_sec ul li h5 {
+    font-size: 22.31px;
+    margin: 0;
+    line-height: 32.31px;
+    color: #222328;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item .testi_client_sec ul li h6 {
+    font-size: 16.23px;
+    margin: 0;
+    line-height: 16px;
+    color: #222222;
+}
+
+div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item:hover .testi_sec, div#testimonial_sec .owl-carousel .owl-stage-outer .owl-stage .owl-item .carousel-item:hover .testi_sec h5 {
+    background-image: url(http://dotcreative.website/everything/wp-content/uploads/2021/01/testimonial-hover.png) !important;
+    color: #fff;
+    background-position: center center;
+}
+
+div#footer-outer {
+    background-image: url(http://dotcreative.website/everything/wp-content/uploads/2021/01/Footer-back.png);
+    background-size: 100% 100%;
+}
+
+div#footer-outer div#footer-widgets .container {
+    padding: 0;
+}
+
+div#footer-outer div#footer-widgets div#text-2 {
+    padding-right: 18%;
+}
+
+div#copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 65.5%;
+    width: 51%;
+    transform: translateX(-50%);
+    border-top: 2px solid #777575;
+}
+
+div#copyright .col.span_5 {
+    width: 100%;
+    text-align: center;
+}
+
+div#copyright p b {
+    color: #000 !important;
+}
+
+div#footer-outer div#footer-widgets ul li a {
+    line-height: 16px;
+}
+
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form {
+    position: relative !important;
+}
+
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form {
+    position: relative !important;
+}
+
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-email {
+    border-radius: 23px;
+    padding: 10px 20px;
+}
+
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-submit {
+    position: absolute;
+    right: -80px;
+    width: 35%;
+    padding: 13px;
+    font-size: 15px;
+    font-family: 'Nunito-Regular';
+    border-radius: 0 23px 23px 0 !important;
+}
+
+div#mysocial ul#innersocial {
+    display: flex;
+}
+
+div#mysocial ul#innersocial li {
+    margin-right: 10px;
+}
+
+div#mysocial ul#innersocial li a i {
+    background-color: #939393;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+}
+
+@media (max-width: 1600px) {
+div#footer-outer {
+    background-image: url(http://dotcreative.website/everything/wp-content/uploads/2021/01/Footer-back.png);
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    background-position: 60%;
+}
+}
+
+@media (max-width: 1440px) {
+div#footer-outer div#footer-widgets .container {
+    padding: 0 100px;
+}
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-submit {
+    position: absolute;
+    right: -50px;
+    width: 40%;
+    padding: 13px;
+    font-size: 15px;
+    font-family: 'Nunito-Regular';
+    border-radius: 0 23px 23px 0 !important;
+}
+}
+
+@media (max-width: 1366px) {
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li a {
+    padding: 0 !important;
+    margin: 0 80px !important;
+}
+div#something_sec p {
+    font-size: 60px;
+    font-family: brittanysignature;
+    padding: 1% 0;
+}
+}
+
+@media (max-width: 1280px) {
+div#header-outer header#top .col.span_9.col_last nav ul.sf-menu.sf-js-enabled li a {
+    padding: 0 !important;
+    margin: 0 70px !important;
+}
+div#vendor_sec a.nectar-button.small.regular.accent-color.regular-button {
+    margin: 0;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-family: 'Nunito-Regular';
+    font-weight: 400;
+}
+}
+
+@media (max-width: 1024px) {
+p.custom_login_heading, li.custom_login, li.custom_reg {
+    display: none !important;
+}
+    
+div#header-outer header#top nav.right-side ul.buttons li#search-btn {
+    display: block !important;
+}
+    
+div#header-outer header#top nav.right-side ul.buttons li.slide-out-widget-area-toggle {
+    display: flex !important;
+}
+
+.slide-out-widget-area-toggle.mobile-icon.slide-out-from-right {
+    display: none !important;
+}
+    
+li.astm-search-menu.is-menu.default.menu-item {
+    display:none !important
+}
+div#something_sec p {
+    font-size: 45px;
+    font-family: brittanysignature;
+    padding: 1% 0;
+}
+div#something_sec img {
+    width: 85%;
+}
+div#vendor_sec a.nectar-button.small.regular.accent-color.regular-button {
+    margin: 0;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-family: 'Nunito-Regular';
+    font-weight: 400;
+}
+    
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-submit {
+    position: absolute;
+    right: -70px;
+    width: 55%;
+    padding: 13px;
+    font-size: 15px;
+    font-family: 'Nunito-Regular';
+    border-radius: 0 23px 23px 0 !important;
+}
+
+div#footer-outer div#footer-widgets div#text-2 {
+    padding-right: 0;
+}
+    
+div#footer-outer {
+    background-image: url(http://dotcreative.website/everything/wp-content/uploads/2021/01/Footer-back.png);
+    background-size: 101% 100%;
+    background-repeat: no-repeat;
+    background-position: 60%;
+}
+    
+#footer-outer #footer-widgets .widget h4 {
+    font-size: 20px !important;
+}
+    
+#footer-outer a, #footer-outer p {
+    font-size: 13px;
+}
+    
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-email {
+    border-radius: 23px;
+    padding: 10px 20px;
+    font-size: 11px;
+}
+    
+}
+
+@media (max-width: 800px) {
+a.mobile-search {
+    display: none !important;
+}
+div#something_sec p {
+    font-size: 35px;
+    font-family: brittanysignature;
+    padding: 0;
+}
+div#vendor_sec .vc_col-sm-10, div#vendor_sec .vc_col-sm-2 {
+    width: 100%;
+    text-align: center;
+}
+div#download_app .wpb_text_column .wpb_wrapper {
+    display: block !important;
+    justify-content: unset;
+    align-items: unset !important;
+    text-align: center;
+}
+div#download_app .wpb_text_column .wpb_wrapper ul:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+div#testimonial_sec {
+    padding-bottom: 0 !important;
+}
+div#copyright {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: none;
+    border-top: 2px solid #777575;
+}
+div#copyright .col.span_5 {
+    width: 100% !important;
+    text-align: center;
+}
+div#footer-outer div#footer-widgets .container {
+    padding: 0px;
+}
+    
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-submit {
+    position: absolute;
+    right: -70px;
+    width: 40%;
+    padding: 13px;
+    font-size: 15px;
+    font-family: 'Nunito-Regular';
+    border-radius: 0 23px 23px 0 !important;
+}
+    
+div#footer-outer {
+    background-image: url(http://dotcreative.website/everything/wp-content/uploads/2021/01/Footer-resp.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#footer-outer a, #footer-outer p {
+    font-size: 16px;
+}
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-email {
+    border-radius: 23px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+div#something_sec {
+    padding: 40px 0 30px 0 !important;
+}
+
+.divider-wrap {
+    display: none;
+}
+    
+div#something_sec p {
+    font-size: 25px;
+    font-family: brittanysignature;
+    padding: 0;
+    line-height: 50px;
+}
+    
+div#footer-outer div#footer-widgets div#newsletterwidgetminimal-2 .tnp.tnp-widget-minimal form.tnp-form input.tnp-submit {
+    position: absolute;
+    right: 0px;
+    width: 30%;
+    padding: 13px;
+    font-size: 15px;
+    font-family: 'Nunito-Regular';
+    border-radius: 0 23px 23px 0 !important;
+}
+
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
